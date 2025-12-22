@@ -1,8 +1,10 @@
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer>
-      <p>Tous droits réservés - AMADIAZE JAAFAR</p>
+      <p>© {currentYear} - AMADIAZE.JAAFAR, Tous droits réservés.</p>
     </footer>
-  )
+  );
 }
+
 export default Footer;
