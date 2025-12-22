@@ -23,6 +23,14 @@ function MainContent() {
   )
 }
 
+function Footer() {
+  return (
+    <footer>
+      <p>Tous droits réservés - AMADIAZE JAAFAR</p>
+    </footer>
+  )
+}
+
 
 function App() {
   
@@ -32,6 +40,7 @@ function App() {
       <Header />
      
       <MainContent />
+      <Footer />
       
     </>
   )
