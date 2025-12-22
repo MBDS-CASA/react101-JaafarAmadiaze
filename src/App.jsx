@@ -1,35 +1,12 @@
 import { useState } from 'react'
 import logoVert from "./assets/logo-vert.png";
 import './App.css'
+import Header from './components/Header.jsx';
+import MainContent from './components/MainContent.jsx';
+import Footer from './components/Footer.jsx';
 
-function Header() {
-return (
-  <div>
-     
-            <img src={logoVert} alt="Logo" width={200} />
 
-       
-         <h1>Introduction à React</h1>
-      <h4>A la découverte des premières notions de React</h4>
-      </div>
-)
-}
 
-function MainContent() {
-  return (
-    <main className="read-the-docs">
-      <p>Ici  nous afficherons des informations interessantes :) </p>
-    </main>
-  )
-}
-
-function Footer() {
-  return (
-    <footer>
-      <p>Tous droits réservés - AMADIAZE JAAFAR</p>
-    </footer>
-  )
-}
 
 
 function App() {
