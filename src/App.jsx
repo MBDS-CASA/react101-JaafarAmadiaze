@@ -18,7 +18,7 @@ return (
 function MainContent() {
   return (
     <main className="read-the-docs">
-      <p>Ici, nous afficherons des informations interessantes :) </p>
+      <p>Ici  nous afficherons des informations interessantes :) </p>
     </main>
   )
 }
